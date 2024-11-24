@@ -1,0 +1,17 @@
+
+@import "../styles/variables.scss";
+@import "../styles/colors.scss";
+
+.title-data {
+	display          : grid;
+	place-items      : center;
+	color            : $primary-font-color;
+	height           : $primary-height;
+	font-size        : $primary-font-size;
+	font-style       : italic;
+	background-color : $primary-background-color;
+}
+
+.second-section {
+	padding-top: $padding-top;
+}

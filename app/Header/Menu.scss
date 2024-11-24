@@ -1,0 +1,24 @@
+@import "../styles/colors.scss";
+@import "../styles/variables.scss";
+
+.menu-navbar {
+	display     : flex;
+	gap         : 1.5rem;
+	padding-top : $menu-padding-top;
+	align-items : center;
+
+	p {
+		font-size: $text-font-size;
+	}
+}
+
+.menu-list {
+	display         : flex;
+	gap             : 1rem;
+	justify-content : space-between;
+}
+
+.clock-image {
+	width   : $image-width;
+	height  : $image-height;
+}

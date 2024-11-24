@@ -1,0 +1,8 @@
+@import "../styles/variables.scss";
+
+.header-section {
+	padding-left  : $padding-left;
+	padding-right : $padding-right;
+	display       : grid;
+	place-items   : left;
+}
