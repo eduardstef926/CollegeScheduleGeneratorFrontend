@@ -1,11 +1,9 @@
 import React from 'react';
 import Menu from './Menu';
 import Image from 'next/image';
-import './Menu.scss';
+import '../styles/menu.scss';
 
-interface HeaderProps {}
-
-const Header: React.FC<HeaderProps> = () => {
+const Header = () => {
 	return (
 		<header>
 			<div className="menu-navbar">

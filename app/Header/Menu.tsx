@@ -1,9 +1,7 @@
 import React from 'react';
-import './Menu.scss';
+import '../styles/menu.scss';
 
-interface MenuProps {}
-
-const Menu: React.FC<MenuProps> = () => {
+const Menu = () => {
 	return (
 		<div className="menu-list">
 			<p>Home</p>

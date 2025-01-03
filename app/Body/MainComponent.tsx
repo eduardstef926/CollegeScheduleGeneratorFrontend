@@ -1,7 +1,15 @@
-import './MainComponent.scss';
+'use client';
+import "../styles/maincomponent.scss";
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
-const MainComponent = () => {
+export default function MainComponent() {
+	const router = useRouter();
+
+	const handleSubmit = () => {
+		router.push('/SchedulePage');
+	};
+
 	return (
 		<div className="main-page">
 			<div className="schedule-description">
@@ -10,7 +18,10 @@ const MainComponent = () => {
 					<p>
 						Simple way to vizualize and create school schedules for schools and collegues around the world
 					</p>
-					<button className="view-button">
+					<button
+						className="view-button"
+						onClick={handleSubmit}
+					>
 						VIEW
 					</button>
 				</div>
@@ -24,5 +35,3 @@ const MainComponent = () => {
 		</div>
 	);
 };
-
-export default MainComponent;

@@ -1,12 +1,9 @@
 import "./globals.css";
-import MainPage from "./MainPage/MainPage";
 
-export default function RootLayout({}: Readonly<{children: React.ReactNode;}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html>
-			<body>
-				<MainPage />
-			</body>
+			<body>{ children }</body>
 		</html>
 	);
 }
