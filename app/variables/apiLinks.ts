@@ -1,0 +1,1 @@
+export const scheduleLinkApi = "https://localhost:7051/schedule/getInstitutionList";

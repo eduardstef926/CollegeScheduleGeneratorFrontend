@@ -36,6 +36,6 @@
 	color            : $primary-font-color;
 
 	&:hover {
-		background-color: rgb(34, 34, 214);
+		background-color: $primary-hover-color;
 	}
 }
