@@ -8,6 +8,15 @@
 	padding-top: 50px;
 }
 
+<<<<<<< HEAD
+=======
+.table-div h1 {
+	font-size: $header-font-size;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+>>>>>>> 98a61fd09fab4bfab75ce62bc56d1f98be60968c
 .table-container {
 	display: block;
 	background-color: $primary-background-color;
@@ -18,9 +27,6 @@
 .table-container h1 {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-size: 35px;
 }
 
 .search-bar {

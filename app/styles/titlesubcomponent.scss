@@ -5,15 +5,15 @@
 .title-data {
 	display          : grid;
 	place-items      : center;
+	padding          : 50px;
+	padding-top      : 150px;
+	padding-bottom      : 150px;
 	color            : $primary-font-color;
-	height           : $primary-height;
-	font-size        : $primary-font-size;
-	font-style       : italic;
 	background-color : $primary-background-color;
 }
 
 .title-data h1 {
-	font-size : 40px;
+	font-size : 45px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

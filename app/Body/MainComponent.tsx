@@ -7,7 +7,7 @@ export default function MainComponent() {
 	const router = useRouter();
 
 	const handleSubmit = () => {
-		router.push('/SchedulePage');
+		router.push('/institutionlist');
 	};
 
 	return (
