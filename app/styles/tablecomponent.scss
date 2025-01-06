@@ -8,29 +8,25 @@
 	padding-top: 50px;
 }
 
-<<<<<<< HEAD
-=======
-.table-div h1 {
-	font-size: $header-font-size;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
->>>>>>> 98a61fd09fab4bfab75ce62bc56d1f98be60968c
 .table-container {
 	display: block;
 	background-color: $primary-background-color;
 	border-radius: 5px;
 	padding-bottom: 15px;
+	width: 520px;
 }
 
 .table-container h1 {
+	font-size: 35px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .search-bar {
 	background-color: rgb(78, 76, 188);
+	margin-bottom: 15px;
 }
 
 .search-bar input {
@@ -55,7 +51,8 @@ table, th, td {
 	background-color: $primary-background-color;
 	padding: $table-padding;
 	border-radius: 5px;
-	font-size: $text-font-size;
+	font-size: 15px;
+	white-space: nowrap;
 }
 
 tbody td:hover {

@@ -9,7 +9,7 @@ const TableComponent: React.FC<TableComponentProps> = ({ institutions }) => {
 	const router = useRouter();
 
 	const handleColumnClick = (id: number) => {
-		router.push(`/schedulepage/${id}`);
+		router.push(`/schedule-page/${id}`);
 	}
 
 	return (

@@ -7,7 +7,7 @@ export default function MainComponent() {
 	const router = useRouter();
 
 	const handleSubmit = () => {
-		router.push('/institutionlist');
+		router.push('/institution-list');
 	};
 
 	return (
