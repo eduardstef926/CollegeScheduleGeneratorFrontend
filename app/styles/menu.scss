@@ -6,6 +6,7 @@
 	gap         : 1.5rem;
 	padding-top : $menu-padding-top;
 	align-items : center;
+	padding-left: 150px;
 
 	p {
 		font-size: $text-font-size;
@@ -21,4 +22,5 @@
 .clock-image {
 	width   : $image-width;
 	height  : $image-height;
+	cursor: pointer;
 }
