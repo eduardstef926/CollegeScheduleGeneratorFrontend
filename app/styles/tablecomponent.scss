@@ -1,0 +1,58 @@
+@import "../styles/colors.scss";
+@import "../styles/variables.scss";
+
+.table-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.table-container {
+	display: block;
+	background-color: $primary-background-color;
+	border-radius: 5px;
+	padding-bottom: 15px;
+}
+
+.table-container h1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 35px;
+}
+
+.search-bar {
+	background-color: rgb(78, 76, 188);
+}
+
+.search-bar input {
+	background-color: rgb(78, 76, 188);
+}
+
+.search-bar input:focus {
+	outline: none;
+	border: none;
+}
+
+.search-bar i {
+	padding: 10px;
+}
+
+.table-component {
+	align-items: center;
+}
+
+table, th, td {
+	text-align: center;
+	background-color: $primary-background-color;
+	padding: $table-padding;
+	border-radius: 5px;
+	font-size: $text-font-size;
+}
+
+tbody td:hover {
+	background-color: rgb(78, 76, 188);
+	cursor: pointer;
+}

@@ -12,6 +12,30 @@
 	background-color : $primary-background-color;
 }
 
+.title-data h1 {
+	font-size : 40px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-data div {
+	display: flex;
+	padding-top: 25px;
+	justify-content: center;
+	text-align: center;
+	width: 400px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-data button {
+	background-color: white;
+	padding: 15px;
+	margin-top: 25px;
+	color: $primary-background-color;
+	border-radius: 10px;
+	font-weight: 600;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .second-section {
 	padding-top: $padding-top;
 }
