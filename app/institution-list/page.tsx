@@ -3,12 +3,13 @@ import '../styles/tablecomponent.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import TableComponent from '../components/TableComponent';
 import { SetStateAction, useEffect, useState } from 'react';
-import { scheduleLinkApi } from '../variables/apiLinks';
-import { InstitutionDto } from '../models/Institution';
+import { apiLinks } from '../variables/apiLinks';
+import { Institution } from '../models/Institution';
 
 export default function InstitutionListComponent() {
-	const [institutionList, setInstitutionList] = useState<InstitutionDto[]>([]);
-	const [copyInstitutionList, setCopyInstitutionList] = useState<InstitutionDto[]>([]);
+	const headerList = ["Name", "City", "Address"]
+	const [institutionList, setInstitutionList] = useState<Institution[]>([]);
+	const [copyInstitutionList, setCopyInstitutionList] = useState<Institution[]>([]);
 	const [inputValue, setInputValue] = useState('');
 
 	const handleInputChange = (event: { target: { value: SetStateAction<string>; }; }) => {
@@ -22,7 +23,7 @@ export default function InstitutionListComponent() {
 	};
 
 	useEffect(() => {
-		fetch(scheduleLinkApi)
+		fetch(apiLinks.scheduleLink)
 			.then((response) => response.json())
 			.then((json) => {
 				setInstitutionList([...json]);
@@ -39,7 +40,7 @@ export default function InstitutionListComponent() {
 						<i className="fa-solid fa-magnifying-glass"></i>
 						<input type="text" value={inputValue} onChange={handleInputChange} placeholder="Search..." />
 					</div>
-					<TableComponent institutions={institutionList} />
+					<TableComponent resultLink='schedule-page' headerList={headerList} institutions={institutionList} />
 				</div>
 			</div>
 		</div>
