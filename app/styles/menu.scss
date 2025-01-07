@@ -2,25 +2,24 @@
 @import "../styles/variables.scss";
 
 .menu-navbar {
-	display     : flex;
-	gap         : 1.5rem;
-	padding-top : $menu-padding-top;
-	align-items : center;
-	padding-left: 150px;
+	display         : flex;
+	justify-content : space-between;
+	align-items     : center;
+	padding         : $menu-padding-top $padding-right;
 
 	p {
-		font-size: $text-font-size;
+		font-size   : 15px;
+		cursor      : pointer;
+		font-family : $common-font-family;
+	}
+
+	p:hover {
+		text-decoration: underline;
 	}
 }
 
 .menu-list {
 	display         : flex;
-	gap             : 1rem;
+	gap             : 4rem;
 	justify-content : space-between;
-}
-
-.clock-image {
-	width   : $image-width;
-	height  : $image-height;
-	cursor: pointer;
 }

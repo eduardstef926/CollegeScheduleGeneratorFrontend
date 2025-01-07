@@ -6,3 +6,24 @@
 	display       : grid;
 	place-items   : left;
 }
+
+.logo-container {
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	gap             : 0.5rem;
+}
+
+.logo-container p {
+	font-size: $logo-font-size;
+}
+
+.logo-container p:hover {
+	text-decoration: none;
+}
+
+.logo-container img {
+	width   : $image-width;
+	height  : $image-height;
+	cursor  : pointer;
+}

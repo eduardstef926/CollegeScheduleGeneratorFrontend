@@ -2,40 +2,36 @@
 @import "../styles/variables.scss";
 
 .table-div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 50px;
+	display          : flex;
+	justify-content  : center;
+	align-items      : center;
+	padding-top      : $table-padding-top;
 }
 
 .table-container {
-	display: block;
-	background-color: $primary-background-color;
-	border-radius: 5px;
-	padding-bottom: 15px;
-	width: 520px;
+	display          : block;
+	background-color : $primary-background-color;
+	border-radius    : (0.5 * $table-border-radius);
+	padding-bottom   : $header-margin-bottom;
 }
 
 .table-container h1 {
-	font-size: 35px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
+	font-size        : (2 * $table-font-size);
+	padding          : 15px 30px;
+	font-family      : $common-font-family;
 }
 
 .search-bar {
-	background-color: rgb(78, 76, 188);
-	margin-bottom: 15px;
+	background-color: $primary-input-color
 }
 
 .search-bar input {
-	background-color: rgb(78, 76, 188);
+	background-color: $primary-input-color
 }
 
 .search-bar input:focus {
-	outline: none;
-	border: none;
+	outline  : none;
+	border   : none;
 }
 
 .search-bar i {
@@ -47,15 +43,16 @@
 }
 
 table, th, td {
-	text-align: center;
-	background-color: $primary-background-color;
-	padding: $table-padding;
-	border-radius: 5px;
-	font-size: 15px;
-	white-space: nowrap;
+	text-align       : center;
+	background-color : $primary-background-color;
+	padding          : $table-padding;
+	border-radius    : (0.5 * $table-border-radius);
+	font-size        : $table-font-size;
+	white-space      : nowrap;
+	font-family      : $common-font-family;
 }
 
 tbody td:hover {
-	background-color: rgb(78, 76, 188);
-	cursor: pointer;
+	background-color : rgb(78, 76, 188);
+	cursor           : pointer;
 }

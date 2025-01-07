@@ -1,5 +1,5 @@
 
-export class InstitutionDto {
+export class Institution {
 	id!: number;
 	title!: string;
 	address!: string;
