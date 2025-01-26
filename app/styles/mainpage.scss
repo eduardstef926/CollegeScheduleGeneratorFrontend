@@ -1,10 +1,53 @@
 @import "../styles/variables.scss";
+@import "../styles/colors.scss";
 
 .header-section {
 	padding-left  : $padding-left;
 	padding-right : $padding-right;
 	display       : grid;
 	place-items   : left;
+}
+
+.footer-section {
+	padding-top      : (2 * $text-margin-bottom);
+	padding-bottom   : (2 * $text-margin-bottom);
+
+	.footer-list {
+		display         : flex;
+		justify-content : space-between;
+		padding-bottom  : 10px;
+		padding-left    : $padding-left;
+		padding-right   : $padding-right;
+		font-family     : $common-font-family;
+
+		.footer-menu {
+			display: flex;
+			justify-content: center;
+			gap: 50px;
+			font-size: (0.75 * $table-font-size);
+
+			p:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.privacy-section {
+		padding-left  : $padding-left;
+		padding-right : $padding-right;
+		font-size     : 10px;
+
+		p {
+			padding-bottom: 5px;
+			color: $primary-input-color;
+		}
+
+		.privacy-list {
+			display: flex;
+			justify-content: left;
+			gap: 1rem;
+		}
+	}
 }
 
 .logo-container {
