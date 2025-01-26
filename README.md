@@ -19,4 +19,4 @@ like Entity Framework were very helpful.
   3. Utilize a client secret approach for logging
 
 
-![image](https://github.com/user-attachments/assets/cc80cda3-cda0-4696-b9ae-df2078d450c6)
+![image](https://github.com/user-attachments/assets/6a54cb65-277c-48e4-a17e-a70a22b0d0eb)
