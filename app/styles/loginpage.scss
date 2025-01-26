@@ -1,0 +1,30 @@
+@import "../styles/colors.scss";
+@import "../styles/variables.scss";
+
+.login-table {
+	display         : flex;
+	padding-top     : 3.5rem;
+	padding-bottom  : 15rem;
+	justify-content : center;
+	font-family     : $common-font-family;
+
+	.login-container {
+		padding          : (0.5 * $padding);
+		background-color : $primary-background-color;
+		border-radius    : 10px;
+
+		p {
+			font-size: 30px;
+		}
+
+		button {
+			margin-top        : 30px;
+			background-color  : $primary-font-color;
+			color             : $primary-background-color;
+
+			&:hover {
+				background-color: $primary-input-color;
+			}
+		}
+	}
+}
