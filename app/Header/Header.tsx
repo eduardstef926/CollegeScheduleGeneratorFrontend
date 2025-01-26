@@ -9,9 +9,7 @@ const Header = () => {
 		<div className="menu-navbar">
 			<Logo />
 			<Menu />
-			<p>
-				LogIn
-			</p>
+			<p>LogIn</p>
 		</div>
 	);
 };

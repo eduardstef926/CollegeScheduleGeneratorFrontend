@@ -5,7 +5,7 @@
 .title-data {
 	display          : grid;
 	place-items      : center;
-	padding          : $padding-left $padding-bottom;
+	padding          : $padding $padding-bottom;
 	color            : $primary-font-color;
 	background-color : $primary-background-color;
 }
@@ -18,7 +18,7 @@
 .title-data div {
 	display         : flex;
 	width           : (5 * $button-width);
-	padding-top     : $table-padding;
+	padding-top     : (0.5 * $table-padding);
 	justify-content : center;
 	text-align      : center;
 	font-family     : $secondary-font-family;
