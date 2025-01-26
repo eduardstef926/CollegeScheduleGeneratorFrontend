@@ -35,9 +35,9 @@ const TableComponent: React.FC<InstitutionProps> = ({
 				{studyPrograms && studyPrograms.map((studyProgram: StudyProgram, index) => (
 					Array.from({ length: studyProgram.numberOfYears }, (_, yearIndex) => (
 						<tr onClick={() => handleColumnClick(index)} key={`${index}-${yearIndex}`}>
-						<td>{studyProgram.institutionName}</td>
-						<td>{studyProgram.studyProgramName}</td>
-						<td>Year {yearIndex + 1} of {studyProgram.numberOfYears}</td>
+							<td>{studyProgram.institutionName}</td>
+							<td>{studyProgram.studyProgramName}</td>
+							<td>Year {yearIndex + 1} of {studyProgram.numberOfYears}</td>
 						</tr>
 					))
 				))}
