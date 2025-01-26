@@ -1,5 +1,8 @@
-## Getting Started
+## Project Title: CollegeScheduleGenerator
 
-This is the frontend of my new personal web project.
-This web application uses Vue.js for frontend and permits the user to create 
-a new schedule for an institution based on several factors like: available rooms, students, professors schedule and so on.
+## Description
+
+CollegeScheduleGenerator is a web application frontend built with React.js and Next.js. 
+It empowers users to create institutional schedules by taking into account various factors such as available rooms, 
+student enrollment, and professor availability. Additionally, users can view comprehensive schedules 
+for available institutions under the "View Schedule" tab.
