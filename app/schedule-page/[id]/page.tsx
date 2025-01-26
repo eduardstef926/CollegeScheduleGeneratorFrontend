@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react';
 
 export default function SchedulePage() {
 	const { id: institutionId } = useParams();
-	const headerList = ["Study Program", "Study Level", "Year"];
+	const headerList = ["Institution", "Program", "Year"];
 	const fullApiLink = `${apiLinks.institutionLink}/?institutionId=${institutionId}`;
 	const [studyProgramList, setStudyProgramList] = useState<StudyProgram[]>([]);
 
