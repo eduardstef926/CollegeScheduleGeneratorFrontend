@@ -18,5 +18,4 @@ like Entity Framework were very helpful.
   2. Add a resource manager for code text
   3. Utilize a client secret approach for logging
 
-
-![image](https://github.com/user-attachments/assets/6a54cb65-277c-48e4-a17e-a70a22b0d0eb)
+![image](https://github.com/user-attachments/assets/a6dc61df-2ed9-4e71-aa37-07aaabdedddd)
